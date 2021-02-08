@@ -1,0 +1,51 @@
+.header__logo {
+  font: normal 30px/37px 'montserrat-medium', arial, helvetica, sans-serif;
+}
+.header__language {
+  font: normal 20px/24px 'montserrat-medium', arial, helvetica, sans-serif;
+}
+.first-display__title {
+  font: normal 80px/82px 'montserrat-bold', arial, helvetica, sans-serif;
+}
+.first-display__paragraph {
+  font: normal 15px/21px 'montserrat-regular', arial, helvetica, sans-serif;
+}
+.first-display__button {
+  font: normal 13px/0 'montserrat-medium', arial, helvetica, sans-serif;
+}
+.first-display__link {
+  font: normal 13px/0 'montserrat-medium', arial, helvetica, sans-serif;
+}
+.second-display__title {
+  font: normal 40px/41px 'montserrat-bold', arial, helvetica, sans-serif;
+}
+.second-display__paragraph1 {
+  font: normal 16px/16px 'montserrat-bold', arial, helvetica, sans-serif;
+}
+.second-display__paragraph2 {
+  font: normal 15px/21px 'montserrat-regular', arial, helvetica, sans-serif;
+}
+.second-display__price {
+  font: normal 40px/56px 'montserrat-bold', arial, helvetica, sans-serif;
+}
+.second-display__basket {
+  font: normal 13px/0 'montserrat-medium', arial, helvetica, sans-serif;
+}
+.second-display__link {
+  font: normal 13px/16px 'montserrat-medium', arial, helvetica, sans-serif;
+}
+.third-display__title {
+  font: normal 40px/41px 'montserrat-bold', arial, helvetica, sans-serif;
+}
+.third-display__paragraph1 {
+font: normal 16px/16px 'montserrat-bold', arial, helvetica, sans-serif;
+}
+.third-display__paragraph2 {
+  font: normal 15px/21px 'montserrat-regular', arial, helvetica, sans-serif;
+}
+.third-display__basket {
+  font: normal 13px/0 'montserrat-medium', arial, helvetica, sans-serif;
+}
+.third-display__link {
+  font: normal 13px/16px 'montserrat-medium', arial, helvetica, sans-serif;
+}
