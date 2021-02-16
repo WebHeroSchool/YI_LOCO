@@ -1,3 +1,20 @@
+.body {
+  margin: 0;
+}
+.wrapper-first {
+  background-color: #fff;
+}
+.wrapper-first::before {
+  content:'';
+  height: 100%;
+  width: 32%;
+  background-color: #000;
+  z-index: 1;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
 .header__logo {
   font: normal 30px/37px 'montserrat-medium', arial, helvetica, sans-serif;
 }
