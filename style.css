@@ -41,8 +41,7 @@
   top: 0;
   height: 92px;
   width: 92px;
-  background-color: #000;
-  opacity: 5%;
+  background-color: #f2f2f2;
   cursor: pointer;
   z-index: 1;
 }
@@ -53,6 +52,7 @@
   width: 36%;
   height: 3px;
   color: #000;
+  z-index: 2;
 }
 .burger-menu__btn > span::after {
   content: '';
