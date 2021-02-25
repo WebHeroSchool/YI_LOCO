@@ -8,7 +8,7 @@
   display: block;
   position: absolute;
   content:'';
-  height: 100%;
+  height: 900px;
   width: 32%;
   background-color: #000;
   z-index: -1;
@@ -18,7 +18,7 @@
   justify-content: space-between;
 }
 .header__logo {
-  padding: 36px 0 36px 52px;
+  padding: 37px 245px 36px 55px;
   font: normal 30px/37px 'montserrat-medium', arial, helvetica, sans-serif;
   color: #fff;
 }
@@ -29,6 +29,9 @@
   font: normal 20px/24px 'montserrat-medium', arial, helvetica, sans-serif;
   color: #fff;
 }
+.language__vector {
+  padding-left: 7px;
+}
 .burger-menu {
   display: block;
   height: 92px;
@@ -37,6 +40,7 @@
 .burger-menu__btn {
   display: flex;
   align-items: center;
+  justify-content: center;
   position: fixed;
   top: 0;
   height: 92px;
@@ -49,41 +53,66 @@
 .burger-menu__btn > span::after {
   display: block;
   position: absolute;
-  width: 36%;
+  width: 34px;
   height: 3px;
-  color: #000;
+  background-color: #000;
   z-index: 2;
 }
 .burger-menu__btn > span::after {
+  width: 34px;
   content: '';
   top: 8px;
 }
+.first-display__img {
+  padding-top: 62px;
+  padding-left: 186px;
+}
 .first-display {
-  width: 32%;
-  padding: 21% 12% 0px 54%;
+  width: 36%;
+  padding: 12% 9% 157px 55%;
 }
 .first-display__title {
   margin: 0;
-  font: normal 80px/82px 'montserrat-bold', arial, helvetica, sans-serif;
-  padding-bottom: 26px;
+  font: normal 86px/78px 'montserrat-bold', arial, helvetica, sans-serif;
+  padding-bottom: 16px;
 }
 .first-display__paragraph {
-  font: normal 15px/21px 'montserrat-regular', arial, helvetica, sans-serif;
-  padding-bottom: 36px;
+  margin: 0;
+  font: normal 19px/21px 'montserrat-regular', arial, helvetica, sans-serif;
+  padding-bottom: 42px;
 }
 .first-display__button {
   display: flex;
   justify-content: space-between;
-  font: normal 13px/0 'montserrat-medium', arial, helvetica, sans-serif;
+  font: normal 14px/0 'montserrat-medium', arial, helvetica, sans-serif;
+  cursor: pointer;
 }
 .first-display__button_next {
-  padding: 14px 41px;
+  padding: 18px 38px;
   background-color: #fff;
   border: solid 1px black;
 }
 .first-display__button_link {
   display: flex;
   align-items: center;
+}
+.button-link__vector {
+  padding-left: 20px;
+  padding-right: 34px;
+}
+.link__social {
+  padding-left: 8px;
+  padding-bottom: 41px;
+  cursor: pointer;
+}
+.link__social:first-child {
+  padding-left: 52px;
+}
+.link__social_img {
+  border-radius: 50%;
+}
+.link__scroll {
+  padding-left: 500px;
 }
 .second-display__title {
   font: normal 40px/41px 'montserrat-bold', arial, helvetica, sans-serif;
