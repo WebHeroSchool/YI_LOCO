@@ -1,20 +1,119 @@
+#checkbox {
+  opacity: 0;
+}
+.body {
+  margin: 0;
+}
+.wrapper-first::before {
+  display: block;
+  position: absolute;
+  content:'';
+  height: 900px;
+  width: 32%;
+  background-color: #000;
+  z-index: -1;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
 .header__logo {
+  padding: 37px 245px 36px 55px;
   font: normal 30px/37px 'montserrat-medium', arial, helvetica, sans-serif;
+  color: #fff;
 }
 .header__language {
+  display: flex;
+  align-items: center;
+  padding-right: 929px;
   font: normal 20px/24px 'montserrat-medium', arial, helvetica, sans-serif;
+  color: #fff;
+}
+.language__vector {
+  padding-left: 7px;
+}
+.burger-menu {
+  display: block;
+  height: 92px;
+  width: 92px;
+}
+.burger-menu__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  height: 92px;
+  width: 92px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  z-index: 1;
+}
+.burger-menu__btn > span,
+.burger-menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 34px;
+  height: 3px;
+  background-color: #000;
+  z-index: 2;
+}
+.burger-menu__btn > span::after {
+  width: 34px;
+  content: '';
+  top: 8px;
+}
+.first-display__img {
+  padding-top: 62px;
+  padding-left: 186px;
+}
+.first-display {
+  width: 36%;
+  padding: 12% 9% 157px 55%;
 }
 .first-display__title {
-  font: normal 80px/82px 'montserrat-bold', arial, helvetica, sans-serif;
+  margin: 0;
+  font: bold 86px/78px 'montserrat-bold', arial, helvetica, sans-serif;
+  padding-bottom: 16px;
 }
 .first-display__paragraph {
-  font: normal 15px/21px 'montserrat-regular', arial, helvetica, sans-serif;
+  margin: 0;
+  font: normal 19px/21px 'montserrat-regular', arial, helvetica, sans-serif;
+  padding-bottom: 42px;
 }
 .first-display__button {
-  font: normal 13px/0 'montserrat-medium', arial, helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  font: normal 14px/0 'montserrat-medium', arial, helvetica, sans-serif;
+  cursor: pointer;
 }
-.first-display__link {
-  font: normal 13px/0 'montserrat-medium', arial, helvetica, sans-serif;
+.first-display__button_next {
+  padding: 18px 38px;
+  background-color: #fff;
+  border: solid 1px black;
+}
+.first-display__button_link {
+  display: flex;
+  align-items: center;
+}
+.button-link__vector {
+  padding-left: 20px;
+  padding-right: 34px;
+}
+.link__social {
+  padding-left: 8px;
+  padding-bottom: 41px;
+  cursor: pointer;
+}
+.link__social:first-child {
+  padding-left: 52px;
+}
+.link__social_img {
+  border-radius: 50%;
+}
+.link__scroll {
+  padding-left: 34.5%;
+  background: no-repeat url(img/scroll.png);
 }
 .second-display__title {
   font: normal 40px/41px 'montserrat-bold', arial, helvetica, sans-serif;
@@ -48,4 +147,69 @@ font: normal 16px/16px 'montserrat-bold', arial, helvetica, sans-serif;
 }
 .third-display__link {
   font: normal 13px/16px 'montserrat-medium', arial, helvetica, sans-serif;
+}
+@media (max-width:768px) {
+  .wrapper-first {
+    background: 0% 0% no-repeat url(img/section1mobile.png);
+  }
+  .wrapper-first::before {
+    display: none;
+  }
+  .header {
+    background-color: #fff;
+  }
+  .header__logo {
+    font: normal 33px/37px 'montserrat-medium', arial, helvetica, sans-serif;
+    padding: 14px 0px 18px 25px;
+    color: #000;
+  }
+  .header__language {
+    display: none;
+  }
+  .burger-menu {
+    height: 70px;
+    width: 70px;
+  }
+  .burger-menu__btn {
+    height: 70px;
+    width: 70px;
+  }
+  .first-display {
+    text-align: center;
+    padding: 0;
+  }
+  .first-display__title {
+    font: bold 53px/51px 'montserrat-bold', arial, helvetica, sans-serif;
+    margin-top: 251px;
+    padding-top: 127px;
+    padding-left: 28px;
+    padding-bottom: 10px;
+  }
+  .first-display__paragraph {
+    display:none;
+  }
+  .first-display__button {
+    display:none;
+  }
+  .first-display__img {
+    display:none;
+  }
+  .link__social {
+    display: none;
+  }
+  .link__scroll {
+    margin-left: 163px;
+    background: 0% 3% no-repeat url(img/scrollmobile.png);
+    content: '';
+    padding-top: 6px;
+  }
+  .second-display {
+    width: 36%;
+  }
+  .second-display__paragraph2 {
+    font: normal 9px/13px 'montserrat-regular', arial, helvetica, sans-serif;
+  }
+  .third-display {
+    width: 36%;
+  }
 }
