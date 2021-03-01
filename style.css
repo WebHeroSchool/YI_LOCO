@@ -115,6 +115,15 @@
   padding-left: 34.5%;
   background: no-repeat url(img/scroll.png);
 }
+.wrapper-second {
+  background-color: #fae8e4;
+  }
+.second-display {
+  display: block;
+  margin-top: 168px;
+  width: 36%;
+  background-color: #fff;
+}
 .second-display__title {
   font: normal 40px/41px 'montserrat-bold', arial, helvetica, sans-serif;
 }
