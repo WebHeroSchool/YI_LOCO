@@ -119,8 +119,8 @@
   background-color: #fae8e4;
   padding: 168px 0 128px 0;
   }
-.second-display__clatch2 {
-  transform: translate(-305px, 237px);
+.img__clatch {
+  background-image: url(img/greyclatch.png),url(img/pinkclatch.png);
 }
 .second-display {
   display: block;
